@@ -7,38 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dictionary</title>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://kit.fontawesome.com/677e1ac1b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Dictionary</h1>
+    </header>
     <div class="search-container">
         <form action="">
             <input type="text" id="search-word" placeholder="Enter a word">
-            <button id="search-btn" type="submit" >Search</button>
+            <button id="search-btn" type="submit" ><i class="fas fa-search fa-lg"></i></button>
         </form>
     </div>
     <div class="container">
+        
         <div class="meaning-container">
-                <!-- <h2 class="word">documentary</h2>
-                <button class="volume">Audio</button>
-                <p class="phonetic">/dɒkjʊˈmɛnt(ə)ri/</p>
-                <div class="meaning">
-                    <p>adjective</p>
-                    <p>"consisting of or based on official documents."</p>
-                    <p>example: "documentary evidence of regular payments from the company" </p>
-                    <p>similar: recorded documented registered </p>
-                    <br>
-                    <p>"consisting of or based on official documents."</p>
-                    <p>example: "documentary evidence of regular payments from the company" </p>
-                    <p>similar: recorded documented registered </p>
-                    <br>
-                </div>
-                <div class="meaning">
-                    <p>noun</p>
-                    <p>"consisting of or based on official documents."</p>
-                    <p>example: "documentary evidence of regular payments from the company" </p>
-                    <p>similar: recorded documented registered </p>
-                </div> -->
+            <div id="load"></div>
         </div>
     </div>
     <script src="main.js"></script>
